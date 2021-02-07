@@ -1,0 +1,1194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homepage - Fashion</title>
+
+    <link rel="stylesheet" href="css/styles.min.css" />
+
+    <!-- font awesome link -->
+    <link
+      rel="stylesheet"
+      href="/node_modules/@fortawesome/fontawesome-free/css/all.css"
+    />
+  </head>
+  <body class="font-ss">
+    <!-- header section -->
+    <header>
+      <div class="header-warraper px-2 md:px-20 py-5">
+        <div
+          class="header-grids grid lg:grid-cols-4 grid-cols-3 text-sm items-center"
+        >
+          <div class="col1 logo">
+            <a href="#">
+              <img
+                src="images/Logo.png"
+                alt="ocolus logo"
+                title="ocolus logo"
+                class="w-28 ocolus-logo"
+              />
+            </a>
+          </div>
+          <div
+            class="col2 navigation flex md:flex-row flex-col lg:justify-between lg:col-span-3 text-center"
+          >
+            <div class="menu">
+              <nav>
+                <ul class="nav-list md:flex uppercase">
+                  <li class="nav-item">
+                    <a href="" class="nav-link">Decor</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="" class="nav-link">Gadgets</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="" class="nav-link">Clothes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="" class="nav-link">Accessoire</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="" class="nav-link">Contact</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <div class="your-cart">
+              <a href="#" class="uppercase text-white"> your cart [2] </a>
+            </div>
+          </div>
+          <div class="col3 lg:hidden col-span-2 justify-self-end">
+            <button aria-label="menu button " class="focus:outline-none z-10">
+              <div class="humberger relative z-20">
+                <div class="line line1"></div>
+                <div class="line line2"></div>
+                <div class="line line3"></div>
+              </div>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- main section -->
+    <main>
+      <!-- hero section -->
+      <section
+        class="hero relative h-screen flex flex-col items-center justify-center text-center"
+        id="hero"
+      >
+        <div
+          class="video-container absolute top-0 left-0 w-full h-full overflow-hidden"
+        >
+          <video
+            src="images/hero_footage.mp4"
+            class="hero-video min-w-full min-h-full object-cover absolute top-1/2 left-1/2"
+            autoplay
+            muted
+            loop
+          ></video>
+        </div>
+        <div class="hero-content z-10">
+          <h1 class="font-s text-5xl text-white leading-snug my-3">
+            <span class="block">Nordik</span> Storage Lounge Chair
+          </h1>
+          <button
+            class="watch-video text-white uppercase font-light text-sm tracking-wider"
+          >
+            watch video
+            <span aria-hidden="true"
+              ><i class="fas fa-play text-xs opacity-0"></i
+            ></span>
+          </button>
+        </div>
+      </section>
+
+      <!-- block section -->
+      <section class="block" id="block">
+        <div class="blocks-wrapper grid lg:grid-cols-3 lg:gap-x-2 mt-2">
+          <div class="block-item shipping-block bg-gray-200 p-9 mb-2 lg:mb-0">
+            <a href="#">
+              <div class="block-content grid place-items-center">
+                <div class="block-icon">
+                  <img
+                    src="images/delivery_icon.png"
+                    alt="delivery icon"
+                    class="w-8"
+                  />
+                </div>
+                <div class="block-title">
+                  <h4 class="text-light_green my-2">
+                    FREE USA PRIORITY SHIPPING
+                  </h4>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="block-item shipping-block bg-gray-200 p-9 mb-2 lg:mb-0">
+            <a href="#">
+              <div class="block-content grid place-items-center">
+                <div class="block-icon">
+                  <img
+                    src="images/diamond_icon.png"
+                    alt="delivery icon"
+                    class="w-8"
+                  />
+                </div>
+                <div class="block-title">
+                  <h4 class="text-light_green my-2">
+                    FREE USA PRIORITY SHIPPING
+                  </h4>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="block-item shipping-block bg-gray-200 p-9 mb-2 lg:mb-0">
+            <a href="#">
+              <div class="block-content grid place-items-center">
+                <div class="block-icon">
+                  <img
+                    src="images/gift_icon.png"
+                    alt="delivery icon"
+                    class="w-8"
+                  />
+                </div>
+                <div class="block-title">
+                  <h4 class="text-light_green my-2">
+                    FREE USA PRIORITY SHIPPING
+                  </h4>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- intro section -->
+      <section class="intro px-4 md:px-6 lg:px-8" id="intro">
+        <div class="intro-content py-10 text-center">
+          <h2 class="font-s text-2xl text-primary text-center">
+            The Home Of Scandinavian Design
+          </h2>
+          <p
+            class="text-center text-gray-500 leading-loose font-light lg:px-60"
+          >
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+            voluptatum consequatur iste voluptatem dolorem vel obcaecati, quasi
+            asperiores repellat, alias ad nostrum commodi quae, qui ut facilis
+            at minima voluptates.
+          </p>
+          <div>
+            <a href="#" class="btn mt-4"
+              >READ MORE OUR STORY
+              <span><i class="fas fa-long-arrow-alt-right"></i></span
+            ></a>
+          </div>
+        </div>
+      </section>
+
+      <!-- feature product -->
+      <section class="feature-product border-b" id="feature-product">
+        <div class="products-wrapper grid lg:grid-cols-2 grid-cols-1 gap-4">
+          <!-- product 1 -->
+          <div class="product-content mb-8">
+            <figure>
+              <div class="product-avatar w-full h-96">
+                <img
+                  src="images/feature_product1.jpg"
+                  alt="feature product"
+                  class="block object-cover w-full h-full"
+                />
+              </div>
+
+              <figcaption class="text-center">
+                <h3 class="font-s text-xl text-primary my-4">
+                  Salt & Pepper Bottle Grinders
+                </h3>
+                <div class="discover">
+                  <a
+                    href="#"
+                    class="uppercase tracking-wider font-light text-xs block"
+                    >discover now</a
+                  >
+                </div>
+              </figcaption>
+            </figure>
+          </div>
+          <!-- product 2 -->
+          <div class="product-content mb-8">
+            <figure>
+              <div class="product-avatar w-full h-96">
+                <img
+                  src="images/feature_product2.jpg"
+                  alt="feature product"
+                  class="block object-cover w-full h-full"
+                />
+              </div>
+
+              <figcaption class="text-center">
+                <h3 class="font-s text-xl text-primary my-4">
+                  Salt & Pepper Bottle Grinders
+                </h3>
+                <div class="discover">
+                  <a
+                    href="#"
+                    class="uppercase tracking-wider font-light text-xs block"
+                    >discover now</a
+                  >
+                </div>
+              </figcaption>
+            </figure>
+          </div>
+          <!-- product 3 -->
+          <div class="product-content mb-8">
+            <figure>
+              <div class="product-avatar w-full h-96">
+                <img
+                  src="images/feature_product3.jpg"
+                  alt="feature product"
+                  class="block object-cover w-full h-full"
+                />
+              </div>
+
+              <figcaption class="text-center">
+                <h3 class="font-s text-xl text-primary my-4">
+                  Salt & Pepper Bottle Grinders
+                </h3>
+                <div class="discover">
+                  <a
+                    href="#"
+                    class="uppercase tracking-wider font-light text-xs block"
+                    >discover now</a
+                  >
+                </div>
+              </figcaption>
+            </figure>
+          </div>
+          <!-- product 4 -->
+          <div class="product-content mb-8">
+            <figure>
+              <div class="product-avatar w-full h-96">
+                <img
+                  src="images/feature_product4.jpg"
+                  alt="feature product"
+                  class="block object-cover w-full h-full"
+                />
+              </div>
+
+              <figcaption class="text-center">
+                <h3 class="font-s text-xl text-primary my-4">
+                  Salt & Pepper Bottle Grinders
+                </h3>
+                <div class="discover">
+                  <a
+                    href="#"
+                    class="uppercase tracking-wider font-light text-xs block"
+                    >discover now</a
+                  >
+                </div>
+              </figcaption>
+            </figure>
+          </div>
+          <!-- product 5 -->
+          <div class="product-content mb-8">
+            <figure>
+              <div class="product-avatar w-full h-96">
+                <img
+                  src="images/feature_product5.jpg"
+                  alt="feature product"
+                  class="block object-cover w-full h-full"
+                />
+              </div>
+
+              <figcaption class="text-center">
+                <h3 class="font-s text-xl text-primary my-4">
+                  Salt & Pepper Bottle Grinders
+                </h3>
+                <div class="discover">
+                  <a
+                    href="#"
+                    class="uppercase tracking-wider font-light text-xs block"
+                    >discover now</a
+                  >
+                </div>
+              </figcaption>
+            </figure>
+          </div>
+          <!-- product 6 -->
+          <div class="product-content mb-8">
+            <figure>
+              <div class="product-avatar w-full h-96">
+                <img
+                  src="images/feature_product6.jpg"
+                  alt="feature product"
+                  class="block object-cover w-full h-full"
+                />
+              </div>
+
+              <figcaption class="text-center">
+                <h3 class="font-s text-xl text-primary my-4">
+                  Salt & Pepper Bottle Grinders
+                </h3>
+                <div class="discover">
+                  <a
+                    href="#"
+                    class="uppercase tracking-wider font-light text-xs block"
+                    >discover now</a
+                  >
+                </div>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <!-- recommended for you -->
+      <section class="recommended py-8" id="recommended">
+        <!-- heading -->
+        <h2 class="font-s text-2xl text-primary text-center pb-8 pt-4">
+          Recommended For You
+        </h2>
+
+        <!-- Swiper -->
+        <div class="swiper-container reco-product-swipper">
+          <ul class="swiper-wrapper">
+            <li class="swiper-slide product_slide">
+              <figure>
+                <div class="avatar-wrapper h-80 relative">
+                  <img
+                    src="images/recommended1.jpg"
+                    alt="recommended product 1"
+                    title="recommended product 1"
+                    class="w-full h-full object-cover object-center"
+                  />
+                </div>
+
+                <figcaption>
+                  <div
+                    class="fig-content flex justify-between items-center text-gray-500 pt-4 px-4 md:px-0"
+                  >
+                    <!-- title and price  -->
+                    <div class="title-price">
+                      <p>Rollo LoyalBlue</p>
+                      <p class="font-light">
+                        <abbr title="dollar">$</abbr> 92.00
+                      </p>
+                    </div>
+
+                    <!-- like button -->
+                    <div class="like-btn">
+                      <button type="button" aria-label="like button">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="30"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          class="heart-svg fill-current text-white"
+                        >
+                          <path
+                            d="M12 4.248c-3.148-5.402-12-3.825-12 2.944 0 4.661 5.571 9.427 12 15.808 6.43-6.381 12-11.147 12-15.808 0-6.792-8.875-8.306-12-2.944z"
+                          />
+                        </svg>
+                      </button>
+                    </div>
+                  </div>
+
+                  <!-- add to cart button -->
+                  <div class="atc-wrapper">
+                    <a
+                      href="#"
+                      class="atc_btn btn border-2 border-white bg-white hover:border-primary"
+                      >add to cart
+                      <span><i class="fas fa-long-arrow-alt-right"></i></span
+                    ></a>
+                  </div>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="swiper-slide product_slide">
+              <figure>
+                <div class="avatar-wrapper h-80 relative">
+                  <img
+                    src="images/recommended2.jpg"
+                    alt="recommended product 1"
+                    title="recommended product 1"
+                    class="w-full h-full object-cover object-center"
+                  />
+                </div>
+
+                <figcaption>
+                  <div
+                    class="fig-content flex justify-between items-center text-gray-500 pt-4 px-4 md:px-0"
+                  >
+                    <!-- title and price  -->
+                    <div class="title-price">
+                      <p>Rollo LoyalBlue</p>
+                      <p class="font-light">
+                        <abbr title="dollar">$</abbr> 92.00
+                      </p>
+                    </div>
+
+                    <!-- like button -->
+                    <div class="like-btn">
+                      <button type="button" aria-label="like button">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="30"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          class="heart-svg fill-current text-white"
+                        >
+                          <path
+                            d="M12 4.248c-3.148-5.402-12-3.825-12 2.944 0 4.661 5.571 9.427 12 15.808 6.43-6.381 12-11.147 12-15.808 0-6.792-8.875-8.306-12-2.944z"
+                          />
+                        </svg>
+                      </button>
+                    </div>
+                  </div>
+
+                  <!-- add to cart button -->
+                  <div class="atc-wrapper">
+                    <a
+                      href="#"
+                      class="atc_btn btn border-2 border-white bg-white hover:border-primary"
+                      >add to cart
+                      <span><i class="fas fa-long-arrow-alt-right"></i></span
+                    ></a>
+                  </div>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="swiper-slide product_slide relative">
+              <div class="badge">
+                <p class="uppercase text-white text-xs">new</p>
+              </div>
+              <figure>
+                <div class="avatar-wrapper h-80 relative">
+                  <img
+                    src="images/recommended3.jpg"
+                    alt="recommended product 1"
+                    title="recommended product 1"
+                    class="w-full h-full object-cover object-center"
+                  />
+                </div>
+
+                <figcaption>
+                  <div
+                    class="fig-content flex justify-between items-center text-gray-500 pt-4 px-4 md:px-0"
+                  >
+                    <!-- title and price  -->
+                    <div class="title-price">
+                      <p>Rollo LoyalBlue</p>
+                      <p class="font-light">
+                        <abbr title="dollar">$</abbr> 92.00
+                      </p>
+                    </div>
+
+                    <!-- like button -->
+                    <div class="like-btn">
+                      <button type="button" aria-label="like button">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="30"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          class="heart-svg fill-current text-white"
+                        >
+                          <path
+                            d="M12 4.248c-3.148-5.402-12-3.825-12 2.944 0 4.661 5.571 9.427 12 15.808 6.43-6.381 12-11.147 12-15.808 0-6.792-8.875-8.306-12-2.944z"
+                          />
+                        </svg>
+                      </button>
+                    </div>
+                  </div>
+
+                  <!-- add to cart button -->
+                  <div class="atc-wrapper">
+                    <a
+                      href="#"
+                      class="atc_btn btn border-2 border-white bg-white hover:border-primary"
+                      >add to cart
+                      <span><i class="fas fa-long-arrow-alt-right"></i></span
+                    ></a>
+                  </div>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="swiper-slide product_slide">
+              <figure>
+                <div class="avatar-wrapper h-80 relative">
+                  <img
+                    src="images/recommended4.jpg"
+                    alt="recommended product 1"
+                    title="recommended product 1"
+                    class="w-full h-full object-cover object-center"
+                  />
+                </div>
+
+                <figcaption>
+                  <div
+                    class="fig-content flex justify-between items-center text-gray-500 pt-4 px-4 md:px-0"
+                  >
+                    <!-- title and price  -->
+                    <div class="title-price">
+                      <p>Rollo LoyalBlue</p>
+                      <p class="font-light">
+                        <abbr title="dollar">$</abbr> 92.00
+                      </p>
+                    </div>
+
+                    <!-- like button -->
+                    <div class="like-btn">
+                      <button type="button" aria-label="like button">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="30"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          class="heart-svg fill-current text-white"
+                        >
+                          <path
+                            d="M12 4.248c-3.148-5.402-12-3.825-12 2.944 0 4.661 5.571 9.427 12 15.808 6.43-6.381 12-11.147 12-15.808 0-6.792-8.875-8.306-12-2.944z"
+                          />
+                        </svg>
+                      </button>
+                    </div>
+                  </div>
+
+                  <!-- add to cart button -->
+                  <div class="atc-wrapper">
+                    <a
+                      href="#"
+                      class="atc_btn btn border-2 border-white bg-white hover:border-primary"
+                      >add to cart
+                      <span><i class="fas fa-long-arrow-alt-right"></i></span
+                    ></a>
+                  </div>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="swiper-slide product_slide">
+              <figure>
+                <div class="avatar-wrapper h-80 relative">
+                  <img
+                    src="images/recommended5.jpg"
+                    alt="recommended product 1"
+                    title="recommended product 1"
+                    class="w-full h-full object-cover object-center"
+                  />
+                </div>
+
+                <figcaption>
+                  <div
+                    class="fig-content flex justify-between items-center text-gray-500 pt-4 px-4 md:px-0"
+                  >
+                    <!-- title and price  -->
+                    <div class="title-price">
+                      <p>Rollo LoyalBlue</p>
+                      <p class="font-light">
+                        <abbr title="dollar">$</abbr> 92.00
+                      </p>
+                    </div>
+
+                    <!-- like button -->
+                    <div class="like-btn">
+                      <button type="button" aria-label="like button">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="30"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          class="heart-svg fill-current text-white"
+                        >
+                          <path
+                            d="M12 4.248c-3.148-5.402-12-3.825-12 2.944 0 4.661 5.571 9.427 12 15.808 6.43-6.381 12-11.147 12-15.808 0-6.792-8.875-8.306-12-2.944z"
+                          />
+                        </svg>
+                      </button>
+                    </div>
+                  </div>
+
+                  <!-- add to cart button -->
+                  <div class="atc-wrapper">
+                    <a
+                      href="#"
+                      class="atc_btn btn border-2 border-white bg-white hover:border-primary"
+                      >add to cart
+                      <span><i class="fas fa-long-arrow-alt-right"></i></span
+                    ></a>
+                  </div>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="swiper-slide product_slide">
+              <figure>
+                <div class="avatar-wrapper h-80 relative">
+                  <img
+                    src="images/recommended6.jpg"
+                    alt="recommended product 1"
+                    title="recommended product 1"
+                    class="w-full h-full object-cover object-center"
+                  />
+                </div>
+
+                <figcaption>
+                  <div
+                    class="fig-content flex justify-between items-center text-gray-500 pt-4 px-4 md:px-0"
+                  >
+                    <!-- title and price  -->
+                    <div class="title-price">
+                      <p>Rollo LoyalBlue</p>
+                      <p class="font-light">
+                        <abbr title="dollar">$</abbr> 92.00
+                      </p>
+                    </div>
+
+                    <!-- like button -->
+                    <div class="like-btn">
+                      <button type="button" aria-label="like button">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="30"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          class="heart-svg fill-current text-white"
+                        >
+                          <path
+                            d="M12 4.248c-3.148-5.402-12-3.825-12 2.944 0 4.661 5.571 9.427 12 15.808 6.43-6.381 12-11.147 12-15.808 0-6.792-8.875-8.306-12-2.944z"
+                          />
+                        </svg>
+                      </button>
+                    </div>
+                  </div>
+
+                  <!-- add to cart button -->
+                  <div class="atc-wrapper">
+                    <a
+                      href="#"
+                      class="atc_btn btn border-2 border-white bg-white hover:border-primary"
+                      >add to cart
+                      <span><i class="fas fa-long-arrow-alt-right"></i></span
+                    ></a>
+                  </div>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="swiper-slide product_slide">
+              <figure>
+                <div class="avatar-wrapper h-80 relative">
+                  <img
+                    src="images/recommended7.jpg"
+                    alt="recommended product 1"
+                    title="recommended product 1"
+                    class="w-full h-full object-cover object-center"
+                  />
+                </div>
+
+                <figcaption>
+                  <div
+                    class="fig-content flex justify-between items-center text-gray-500 pt-4 px-4 md:px-0"
+                  >
+                    <!-- title and price  -->
+                    <div class="title-price">
+                      <p>Rollo LoyalBlue</p>
+                      <p class="font-light">
+                        <abbr title="dollar">$</abbr> 92.00
+                      </p>
+                    </div>
+
+                    <!-- like button -->
+                    <div class="like-btn">
+                      <button type="button" aria-label="like button">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="30"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          class="heart-svg fill-current text-white"
+                        >
+                          <path
+                            d="M12 4.248c-3.148-5.402-12-3.825-12 2.944 0 4.661 5.571 9.427 12 15.808 6.43-6.381 12-11.147 12-15.808 0-6.792-8.875-8.306-12-2.944z"
+                          />
+                        </svg>
+                      </button>
+                    </div>
+                  </div>
+
+                  <!-- add to cart button -->
+                  <div class="atc-wrapper">
+                    <a
+                      href="#"
+                      class="atc_btn btn border-2 border-white bg-white hover:border-primary"
+                      >add to cart
+                      <span><i class="fas fa-long-arrow-alt-right"></i></span
+                    ></a>
+                  </div>
+                </figcaption>
+              </figure>
+            </li>
+          </ul>
+          <!-- Add Arrows -->
+          <div class="swiper-button-next next-product"></div>
+          <div class="swiper-button-prev previous-product"></div>
+        </div>
+      </section>
+
+      <!-- customer -->
+      <section class="customer" id="customer">
+        <div class="customer-wrapper">
+          <div class="customer-head-bg bg-light_blue text-white pt-10 pb-40">
+            <div class="customer_content lg:px-72 md:px-32 px-10">
+              <h2 class="font-s text-2xl text-primary text-center pt-4">
+                Customer Success Stories
+              </h2>
+              <p class="text-gray-500 leading-loose text-center">
+                There are many variations of passages of Lorem Ipsum available,
+                but the majority have suffered alteration in some form, by
+                injected humour, or randomised words
+              </p>
+            </div>
+          </div>
+          <div class="customer_story lg:px-24 px-16 -mt-24">
+            <!-- Swiper -->
+            <div class="swiper-container mb-10 customer_story_slider">
+              <ul class="swiper-wrapper">
+                <li class="swiper-slide">
+                  <div class="story_slide_wrapper px-8 pt-8 pb-12 bg-white">
+                    <article class="text-center">
+                      <div class="customer_story">
+                        <p
+                          class="text-center text-gray-500 pb-8 font-light leading-relaxed"
+                        >
+                          “Amazing theme and top class support, as I’m a
+                          beginner, Luke helped me above and beyond and was more
+                          than patient ”
+                        </p>
+                      </div>
+                      <div
+                        class="customer_avatar w-24 h-24 shadow-xl bg-white rounded-full mx-auto mb-4"
+                      >
+                        <img
+                          src="images/customer1.jpg"
+                          alt="customer 1"
+                          title="customer avatar"
+                          class="w-full h-full rounded-full object-cover object-top"
+                        />
+                      </div>
+                      <div class="customer_info">
+                        <address class="not-italic">
+                          <cite
+                            class="not-italic font-medium text-xl pb-2 text-primary"
+                            >Arthur Hansen</cite
+                          >
+                          <p class="text-gray-500">CEO / Letters Inc</p>
+                        </address>
+                      </div>
+                    </article>
+                  </div>
+                </li>
+                <li class="swiper-slide">
+                  <div class="story_slide_wrapper bg-white px-8 py-8">
+                    <article class="text-center">
+                      <div class="customer_story">
+                        <p
+                          class="text-center text-gray-500 pb-8 font-light leading-relaxed"
+                        >
+                          “Amazing theme and top class support, as I’m a
+                          beginner, Luke helped me above and beyond and was more
+                          than patient ”
+                        </p>
+                      </div>
+                      <div
+                        class="customer_avatar w-24 h-24 shadow-xl bg-white rounded-full mx-auto mb-4"
+                      >
+                        <img
+                          src="images/customer2.jpg"
+                          alt="customer 1"
+                          title="customer avatar"
+                          class="w-full h-full rounded-full object-cover object-top"
+                        />
+                      </div>
+                      <div class="customer_info">
+                        <address class="not-italic">
+                          <cite
+                            class="not-italic font-medium text-xl pb-2 text-primary"
+                            >Annie Quinn</cite
+                          >
+                          <p class="text-gray-500">Co-Founder / April Inc</p>
+                        </address>
+                      </div>
+                    </article>
+                  </div>
+                </li>
+                <li class="swiper-slide">
+                  <div class="story_slide_wrapper bg-white px-8 py-8">
+                    <article class="text-center">
+                      <div class="customer_story">
+                        <p
+                          class="text-center text-gray-500 pb-8 font-light leading-relaxed"
+                        >
+                          “Amazing theme and top class support, as I’m a
+                          beginner, Luke helped me above and beyond and was more
+                          than patient ”
+                        </p>
+                      </div>
+                      <div
+                        class="customer_avatar w-24 h-24 shadow-xl bg-white rounded-full mx-auto mb-4"
+                      >
+                        <img
+                          src="images/customer3.jpg"
+                          alt="customer 1"
+                          title="customer avatar"
+                          class="w-full h-full rounded-full object-cover object-top"
+                        />
+                      </div>
+                      <div class="customer_info">
+                        <address class="not-italic">
+                          <cite
+                            class="not-italic font-medium text-xl pb-2 text-primary"
+                            >Chester Torres</cite
+                          >
+                          <p class="text-gray-500">VP of Product / Local Inc</p>
+                        </address>
+                      </div>
+                    </article>
+                  </div>
+                </li>
+                <li class="swiper-slide">
+                  <div class="story_slide_wrapper bg-white px-8 py-8">
+                    <article class="text-center">
+                      <div class="customer_story">
+                        <p
+                          class="text-center text-gray-500 pb-8 font-light leading-relaxed"
+                        >
+                          “Amazing theme and top class support, as I’m a
+                          beginner, Luke helped me above and beyond and was more
+                          than patient ”
+                        </p>
+                      </div>
+                      <div
+                        class="customer_avatar w-24 h-24 shadow-xl bg-white rounded-full mx-auto mb-4"
+                      >
+                        <img
+                          src="images/customer4.jpg"
+                          alt="customer 1"
+                          title="customer avatar"
+                          class="w-full h-full rounded-full object-cover object-top"
+                        />
+                      </div>
+                      <div class="customer_info">
+                        <address class="not-italic">
+                          <cite
+                            class="not-italic font-medium text-xl pb-2 text-primary"
+                            >Arthur Hansen</cite
+                          >
+                          <p class="text-gray-500">CEO / Letters Inc</p>
+                        </address>
+                      </div>
+                    </article>
+                  </div>
+                </li>
+                <li class="swiper-slide">
+                  <div class="story_slide_wrapper bg-white px-12 py-8">
+                    <article class="text-center">
+                      <div class="customer_story">
+                        <p
+                          class="text-center text-gray-500 pb-8 font-light leading-relaxed"
+                        >
+                          “Amazing theme and top class support, as I’m a
+                          beginner, Luke helped me above and beyond and was more
+                          than patient ”
+                        </p>
+                      </div>
+                      <div
+                        class="customer_avatar w-24 h-24 shadow-xl bg-white rounded-full mx-auto mb-4"
+                      >
+                        <img
+                          src="images/customer5.jpg"
+                          alt="customer 1"
+                          title="customer avatar"
+                          class="w-full h-full rounded-full object-cover object-top"
+                        />
+                      </div>
+                      <div class="customer_info">
+                        <address class="not-italic">
+                          <cite
+                            class="not-italic font-medium text-xl pb-2 text-primary"
+                            >Arthur Hansen</cite
+                          >
+                          <p class="text-gray-500">CEO / Letters Inc</p>
+                        </address>
+                      </div>
+                    </article>
+                  </div>
+                </li>
+              </ul>
+              <!-- Add Pagination -->
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- follow us  -->
+      <section class="follow-us pt-8 pb-4" id="follow-us">
+        <!-- heading -->
+        <h2 class="font-s text-2xl text-primary text-center pb-8">
+          follow us on instagram
+        </h2>
+
+        <!-- instagram posts -->
+        <div class="gallery" role="gallery">
+          <div
+            class="posts-wrapper grid grid-cols-2 gap-4 md:grid-cols-4 lg:grid-cols-6"
+          >
+            <div class="post h-48 relative">
+              <!-- instagran post -->
+              <img
+                src="images/insta1.jpg"
+                alt="instagram post"
+                title="instagram post"
+                class="w-full h-full object-cover object-center"
+              />
+
+              <!-- instagram link -->
+              <a
+                href="#"
+                class="instagran-link absolute top-2/3 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white text-3xl opacity-0"
+              >
+                <i class="fab fa-instagram"></i>
+              </a>
+            </div>
+            <div class="post h-48 relative">
+              <!-- instagran post -->
+              <img
+                src="images/insta2.jpg"
+                alt="instagram post"
+                title="instagram post"
+                class="w-full h-full object-cover object-center"
+              />
+
+              <!-- instagram link -->
+              <a
+                href="#"
+                class="instagran-link absolute top-2/3 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white text-3xl opacity-0"
+              >
+                <i class="fab fa-instagram"></i>
+              </a>
+            </div>
+            <div class="post h-48 relative">
+              <!-- instagran post -->
+              <img
+                src="images/insta3.jpg"
+                alt="instagram post"
+                title="instagram post"
+                class="w-full h-full object-cover object-center"
+              />
+
+              <!-- instagram link -->
+              <a
+                href="#"
+                class="instagran-link absolute top-2/3 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white text-3xl opacity-0"
+              >
+                <i class="fab fa-instagram"></i>
+              </a>
+            </div>
+            <div class="post h-48 relative">
+              <!-- instagran post -->
+              <img
+                src="images/insta4.jpg"
+                alt="instagram post"
+                title="instagram post"
+                class="w-full h-full object-cover object-center"
+              />
+
+              <!-- instagram link -->
+              <a
+                href="#"
+                class="instagran-link absolute top-2/3 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white text-3xl opacity-0"
+              >
+                <i class="fab fa-instagram"></i>
+              </a>
+            </div>
+            <div class="post h-48 relative">
+              <!-- instagran post -->
+              <img
+                src="images/insta5.jpg"
+                alt="instagram post"
+                title="instagram post"
+                class="w-full h-full object-cover object-center"
+              />
+
+              <!-- instagram link -->
+              <a
+                href="#"
+                class="instagran-link absolute top-2/3 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white text-3xl opacity-0"
+              >
+                <i class="fab fa-instagram"></i>
+              </a>
+            </div>
+            <div class="post h-48 relative">
+              <!-- instagran post -->
+              <img
+                src="images/insta6.jpg"
+                alt="instagram post"
+                title="instagram post"
+                class="w-full h-full object-cover object-center"
+              />
+
+              <!-- instagram link -->
+              <a
+                href="#"
+                class="instagran-link absolute top-2/3 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white text-3xl opacity-0"
+              >
+                <i class="fab fa-instagram"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- footer section -->
+    <footer>
+      <div
+        class="footer-wrapp bg-primary pt-8 pb-4 text-center lg:text-left grid grid-cols-1 lg:grid-cols-3 border border-gray-700 px-4 md:px-6 lg:px-8"
+      >
+        <!-- footer info -->
+        <div class="info-grid text-gray-400">
+          <img
+            src="images/Logo.png"
+            alt="ocolus logo"
+            class="w-32 mx-auto lg:mx-0"
+          />
+          <p class="font-light leading-loose py-4">
+            Ocolus- the ultimate WordPress E-commerce toolkit that helps you
+            sell anything. The best choice for your next personal or client's
+            e-shop.
+          </p>
+          <div class="join-us">
+            <label for="email" class="uppercase text-white text-sm"
+              >stay in touch</label
+            >
+            <div
+              class="email-field-wrapper flex items-center border border-gray-400 h-10 mt-4"
+            >
+              <input
+                type="text"
+                id="email"
+                placeholder="Enter your email address"
+                class="email focus:outline-none h-full flex-1 bg-primary px-4 tracking-wider font-light text-sm"
+              />
+              <button
+                type="submit"
+                class="h-full px-4 hover:text-white"
+                aria-label="get in touch"
+              >
+                <i class="fas fa-paper-plane"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- footer menu -->
+        <div
+          class="menu-grid text-gray-400 lg:col-start-3 lg:col-end-4 grid grid-cols-1 lg:grid-cols-2"
+        >
+          <div class="about-menu">
+            <h4 class="text-white uppercase mb-4 text-sm mt-4 lg:mt-0">
+              about us
+            </h4>
+            <ul class="footer-nav">
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">About Ocolus Decor</a>
+              </li>
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">Sitemap</a>
+              </li>
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">Trade Assurance</a>
+              </li>
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">Bussiness Identity</a>
+              </li>
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">Track Your Order</a>
+              </li>
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">Secure Payment</a>
+              </li>
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">Inspection Service</a>
+              </li>
+            </ul>
+          </div>
+          <div class="customer-care-menu">
+            <h4 class="text-white uppercase mb-4 text-sm mt-4 lg:mt-0">
+              Customer Care
+            </h4>
+            <ul class="footer-nav">
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">Help Center</a>
+              </li>
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">Payment</a>
+              </li>
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">How to Buy</a>
+              </li>
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">Shipping & Delivery</a>
+              </li>
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link"
+                  >International Product Policy</a
+                >
+              </li>
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">How to Return</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="bottom-footer bg-primary text-gray-400 flex flex-col text-center lg:text-left lg:flex-row lg:justify-between lg:items-center py-8 px-4 md:px-6 lg:px-8"
+      >
+        <div class="copyright">
+          <p class="text-sm mb-2">© 2018 Ocolus. All Rights Reserved</p>
+        </div>
+        <div class="footer-social-media mx-auto lg:mx-0">
+          <ul class="flex md:text-sm text-xs">
+            <li class="mr-8">
+              <a href="#" class="hover:text-white transition-all"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+            </li>
+            <li class="mr-8">
+              <a href="#" class="hover:text-white transition-all"
+                ><i class="fab fa-twitter"></i
+              ></a>
+            </li>
+            <li class="mr-8">
+              <a href="#" class="hover:text-white transition-all"
+                ><i class="fab fa-google-plus-g"></i
+              ></a>
+            </li>
+            <li class="mr-8">
+              <a href="#" class="hover:text-white transition-all"
+                ><i class="fab fa-pinterest-p"></i
+              ></a>
+            </li>
+            <li class="mr-8">
+              <a href="#" class="hover:text-white transition-all"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/script.min.js"></script>
+  </body>
+</html>
